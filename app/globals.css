@@ -4,6 +4,12 @@
   scroll-behavior: smooth;
 }
 
+@layer utilities {
+  .heading {
+    @apply font-bold text-4xl md:text-5xl text-center;
+  }
+}
+
 @theme {
   --color-black: #000;
   --color-black-100: #000319;
