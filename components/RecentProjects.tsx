@@ -21,7 +21,7 @@ const RecentProjects = () => {
           >
             <PinContainer heading={project.heading} href={project.githubLink}>
               <a
-                href={project.githubLink}
+                href={project.demoLink}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -45,7 +45,7 @@ const RecentProjects = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href={project.demoLink}
+                href={project.githubLink}
                 className="flex items-center justify-between mt-7 mb-3"
               >
                 <div className="flex items-center">
@@ -61,7 +61,7 @@ const RecentProjects = () => {
                 </div>
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-lg md:text-xs text-sm text-purple">
-                    Checkout Demo
+                    Checkout the code
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
