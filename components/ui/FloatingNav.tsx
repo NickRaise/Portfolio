@@ -22,7 +22,7 @@ export const FloatingNav = ({
 }) => {
   const { scrollYProgress } = useScroll();
 
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(true);
   const [isAudioPlaying, setIsAudioPlaying] = useState<boolean>(false);
   const [isIndicatorActive, setIsIndicatorActive] = useState<boolean>(false);
   const audioElementRef = useRef<HTMLAudioElement | null>(null);
@@ -33,7 +33,7 @@ export const FloatingNav = ({
       let direction = current! - scrollYProgress.getPrevious()!;
 
       if (scrollYProgress.get() < 0.05) {
-        setVisible(false);
+        setVisible(true);
       } else {
         if (direction < 0) {
           setVisible(true);
