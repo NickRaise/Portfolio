@@ -42,7 +42,12 @@ const RecentProjects = () => {
                   {project.des}
                 </p>
               </a>
-              <div className="flex items-center justify-between mt-7 mb-3">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={project.demoLink}
+                className="flex items-center justify-between mt-7 mb-3"
+              >
                 <div className="flex items-center">
                   {project.iconLists.map((icon, index) => (
                     <div
@@ -54,18 +59,13 @@ const RecentProjects = () => {
                     </div>
                   ))}
                 </div>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={project.demoLink}
-                  className="flex justify-center items-center"
-                >
+                <div className="flex justify-center items-center">
                   <p className="flex lg:text-lg md:text-xs text-sm text-purple">
                     Checkout Demo
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </a>
-              </div>
+                </div>
+              </a>
             </PinContainer>
           </div>
         ))}

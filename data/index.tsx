@@ -88,8 +88,18 @@ export const projects = [
         title: "Play Chess in real-time",
         des: "Explore the joy of playing chess with anyone around the world in real-time, build using react & web-sockets.",
         img: "/p1.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", '/ws.png'],
         githubLink: "https://github.com/NickRaise/Chess-OP",
         demoLink: "https://drive.google.com/file/d/1_Whp5LfFGd9kS3k1M6gNKgHqfeYp2eTG/view?usp=sharing",
    },
+   {
+    id: 2,
+    heading: "Chatter",
+    title: "Real-Time Chat Application",
+    des: "Engage in live conversations with anyone around the world in real-time, built using React, WebSockets, and Node.js.",
+    img: "/p2.svg",  
+    iconLists: ["/re.svg", "/tail.svg", '/js.svg', '/ws.png', '/node.svg', '/mongo.svg'],
+    githubLink: "https://github.com/NickRaise/Chat-OP",  
+    demoLink: "https://drive.google.com/file/d/1NPT_HBA2MAm-Hy0y1DuywBtFOtGbAi4p/view?usp=sharing",  
+  }  
 ]
