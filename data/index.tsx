@@ -83,23 +83,53 @@ export const gridItems: gridItemType[] = [
 
 export const projects = [
   {
-        id: 1,
-        heading: "Chess-OP",
-        title: "Play Chess in real-time",
-        des: "Explore the joy of playing chess with anyone around the world in real-time, build using react & web-sockets.",
-        img: "/p1.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", '/ws.png'],
-        githubLink: "https://github.com/NickRaise/Chess-OP",
-        demoLink: "https://drive.google.com/file/d/1_Whp5LfFGd9kS3k1M6gNKgHqfeYp2eTG/view?usp=sharing",
-   },
-   {
+    id: 1,
+    heading: "Chess-OP",
+    title: "Play Chess in real-time",
+    des: "Explore the joy of playing chess with anyone around the world in real-time, build using react & web-sockets.",
+    img: "/p1.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/ws.png"],
+    githubLink: "https://github.com/NickRaise/Chess-OP",
+    demoLink:
+      "https://drive.google.com/file/d/1_Whp5LfFGd9kS3k1M6gNKgHqfeYp2eTG/view?usp=sharing",
+  },
+  {
     id: 2,
     heading: "Chatter",
     title: "Real-Time Chat Application",
     des: "Engage in live conversations with anyone around the world in real-time, built using React, WebSockets, and Node.js.",
-    img: "/p2.svg",  
-    iconLists: ["/re.svg", "/tail.svg", '/js.svg', '/ws.png', '/node.svg', '/mongo.svg'],
-    githubLink: "https://github.com/NickRaise/Chat-OP",  
-    demoLink: "https://drive.google.com/file/d/1NPT_HBA2MAm-Hy0y1DuywBtFOtGbAi4p/view?usp=sharing",  
-  }  
-]
+    img: "/p2.svg",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/js.svg",
+      "/ws.png",
+      "/node.svg",
+      "/mongo.svg",
+      "/express.svg",
+    ],
+    githubLink: "https://github.com/NickRaise/Chat-OP",
+    demoLink:
+      "https://drive.google.com/file/d/1NPT_HBA2MAm-Hy0y1DuywBtFOtGbAi4p/view?usp=sharing",
+  },
+  {
+    id: 3,
+    heading: "Zentry Clone",
+    title: "Gaming Website Clone (Zentry)",
+    des: "A visually rich, animated gaming website clone inspired by Zentry.com. Built using React and GSAP for smooth animations and transitions.",
+    img: "/p3.svg",
+    iconLists: ["/re.svg", "/js.svg", "/tail.svg", "/gsap.svg"],
+    githubLink: "https://github.com/NickRaise/gaming_website",
+    demoLink: "https://gaming-website-tawny.vercel.app/",
+  },
+  {
+    id: 4,
+    heading: "Pay-OP",
+    title: "Online Digital Wallet Application",
+    des: "Pay-OP is a secure digital wallet application that allows you to transfer money from your bank account and pay any mobile number using the wallet. Built with Next.js, Tailwind CSS, and PostgreSQL.",
+    img: "/p4.svg",
+    iconLists: ["/ts.svg", "/nextjs.svg", "/tail.svg", "/postgresql.svg"],
+    githubLink: "https://github.com/NickRaise/PayOP",
+    demoLink: "https://github.com/NickRaise/PayOP",
+  },
+];
