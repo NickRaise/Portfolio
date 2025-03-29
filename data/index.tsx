@@ -88,7 +88,7 @@ export const projects = [
     title: "Play Chess in real-time",
     des: "Explore the joy of playing chess with anyone around the world in real-time, build using react & web-sockets.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/ws.png"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/ws.png", "/node.svg"],
     githubLink: "https://github.com/NickRaise/Chess-OP",
     demoLink:
       "https://drive.google.com/file/d/1_Whp5LfFGd9kS3k1M6gNKgHqfeYp2eTG/view?usp=sharing",
