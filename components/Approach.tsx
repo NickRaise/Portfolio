@@ -19,7 +19,7 @@ const Approach = () => {
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
-            containerClassName="bg-emerald-900"
+            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
           />
         </Card>
         <Card
@@ -29,15 +29,14 @@ const Approach = () => {
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-black"
+            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
             colors={[
-              [236, 72, 153],
-              [232, 121, 249],
+              [255, 166, 158],
+              [221, 255, 247],
             ]}
             dotSize={2}
           />
           {/* Radial gradient for the cute fade */}
-          <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
           title="Launch & Applause"
@@ -46,7 +45,7 @@ const Approach = () => {
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-sky-600"
+            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
             colors={[[125, 211, 252]]}
           />
         </Card>
@@ -72,11 +71,16 @@ const Card = ({
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl"
+      style={{
+        background: "rgb(4,7,29)",
+        backgroundColor:
+          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+      }}
     >
-      <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
-      <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
-      <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
-      <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
+      <Icon className="absolute h-6 w-6 opacity-30 -top-3 -left-3 dark:text-white text-black" />
+      <Icon className="absolute h-6 w-6 opacity-30 -bottom-3 -left-3 dark:text-white text-black" />
+      <Icon className="absolute h-6 w-6 opacity-30 -top-3 -right-3 dark:text-white text-black" />
+      <Icon className="absolute h-6 w-6 opacity-30 -bottom-3 -right-3 dark:text-white text-black" />
 
       <AnimatePresence>
         {hovered && (
