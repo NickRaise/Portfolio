@@ -8,6 +8,7 @@ import { useState } from "react";
 import animationData from "@/data/confetie.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import { IoMdCheckmark } from "react-icons/io";
 export const BentoGrid = ({
   className,
   children,
@@ -154,7 +155,7 @@ export const BentoGridItem = ({
                 </div>
                 <MagicButton
                   title={copied ? "Email copied" : "Copy my email"}
-                  icon={<IoCopyOutline />}
+                  icon={ copied ? <IoMdCheckmark /> :<IoCopyOutline />}
                   position="left"
                   className="!bg-[#161A31]"
                   handleClick={handleCopy}

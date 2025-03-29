@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -36,9 +37,9 @@ const Hero = () => {
             Hi, I&apos;m Nikhil, a developer crafting technology for a smarter future.
           </p>
 
-          <a href="#about">
+          <Link href="#experience">
             <MagicButton title="Show my Work" icon={<FaLocationArrow />} position="right" />
-          </a>
+          </Link>
 
         </div>
       </div>
