@@ -139,39 +139,42 @@ export const workExperience = [
     id: 1,
     title: "Web Developer Intern",
     desc: "Made a video streaming application using the Youtube API to fetch the video data and redirect the user to the video.",
-    thumbnail: "/exp1.svg"
+    thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Junior Software Developer",
     desc: "Enhanced Odoo ERP by customizing modules and automating workflows for inventory, invoices, and sales.",
-    thumbnail: "/exp2.svg"
+    thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Full-Stack Developer",
     desc: "Built a School Management System using React, NestJS, and MongoDB, focusing on scalable integration.",
-    thumbnail: "/exp3.svg"
+    thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Real-Time Chess Platform Developer",
     desc: "Created an online multiplayer chess platform using React, WebSockets, and Chess.js for real-time gameplay.",
-    thumbnail: "/exp4.svg"
-  }
-]
+    thumbnail: "/exp4.svg",
+  },
+];
 
-// export const socialMedia = [
-//   {
-//     id: 1,
-//     img: "/git.svg",
-//   },
-//   {
-//     id: 2,
-//     img: "/twit.svg",
-//   },
-//   {
-//     id: 3,
-//     img: "/link.svg",
-//   },
-// ];
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/git.svg",
+    link: "https://github.com/NickRaise",
+  },
+  {
+    id: 2,
+    img: "/twit.svg",
+    link: "https://x.com/__NikhilKumar_",
+  },
+  {
+    id: 3,
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/nikhilkumar17/",
+  },
+];

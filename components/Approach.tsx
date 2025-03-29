@@ -15,7 +15,7 @@ const Approach = () => {
         <Card
           title="Concept & Blueprint"
           icon={<PhaseIcon order="Phase 1" />}
-          desc="We kick things off like mad scientists—brainstorming your website's wildest dreams, audience, and key features. It&rsquo;s all about crafting a plan as epic as a treasure map!"
+          desc="We kick things off like mad scientists brainstorming your website's wildest dreams, audience, and key features. It&rsquo;s all about crafting a plan as epic as a treasure map!"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -25,7 +25,7 @@ const Approach = () => {
         <Card
           title="Code Symphony & Progress Beats"
           icon={<PhaseIcon order="Phase 2" />}
-          desc="With the plan set, I fire up some lyrical tunes and dive into coding. From rough sketches to polished code, I&rsquo;ll keep you in the loop—like a live symphony where every beat brings your site closer to perfection."
+          desc="With the plan set, I fire up some lyrical tunes and dive into coding. From rough sketches to polished code, I&rsquo;ll keep you in the loop like a live symphony where every beat brings your site closer to perfection."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -42,7 +42,7 @@ const Approach = () => {
         <Card
           title="Launch & Applause"
           icon={<PhaseIcon order="Phase 3" />}
-          desc="Finally, the magic unfolds! I transform our vision into a dynamic, live website—ready for its grand debut and a well-deserved round of applause."
+          desc="Finally, the magic unfolds! I transform our vision into a dynamic, live website ready for its grand debut and a well-deserved round of applause."
         >
           <CanvasRevealEffect
             animationSpeed={3}
