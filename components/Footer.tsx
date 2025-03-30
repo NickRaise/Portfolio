@@ -14,7 +14,7 @@ const Footer = () => {
           className="w-full h-full opacity-50"
         />
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center px-4 md:px-0">
         <h1 className="heading">
           Ready to take <span className="text-purple">your</span> digital
           presence to next level?
