@@ -11,7 +11,7 @@ const Approach = () => {
         My
         <span className="text-purple"> approach</span>
       </h1>
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
+      <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4 px-4 md:px-0">
         <Card
           title="Concept & Blueprint"
           icon={<PhaseIcon order="Phase 1" />}
