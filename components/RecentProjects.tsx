@@ -32,7 +32,7 @@ const RecentProjects = () => {
                   <img
                     src={project.img}
                     alt={project.title}
-                    className="absolute z-10 bottom-0"
+                    className="absolute z-10 -bottom-5"
                   />
                 </div>
                 <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">

@@ -61,7 +61,8 @@ export const gridItems: gridItemType[] = [
   },
   {
     id: 5,
-    title: "Currently building InterviewGuru: An AI based mock-interview platform.",
+    title:
+      "Currently building InterviewGuru: An AI based mock-interview platform.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -95,6 +96,16 @@ export const projects = [
   },
   {
     id: 2,
+    heading: "Interview Guru",
+    title: "AI-Powered Interview Preparation Platform",
+    des: "Interview Guru is an AI-powered platform that helps users practice job interviews using Vapi AI voice agents and Google Gemini. Built with Next.js, Tailwind CSS, and Firebase, it offers real-time feedback, detailed transcripts, and a sleek, responsive UI.",
+    img: "/project-interview-guru.svg",
+    iconLists: ["/ts.svg", "/nextjs.svg", "/tail.svg", "/firebase.svg"],
+    githubLink: "https://github.com/NickRaise/Interview-Guru/",
+    demoLink: "https://interview-guru-kohl.vercel.app/",
+  },
+  {
+    id: 3,
     heading: "Chatter",
     title: "Real-Time Chat Application",
     des: "Engage in live conversations with anyone around the world in real-time, built using React, WebSockets, and Node.js.",
@@ -113,7 +124,7 @@ export const projects = [
       "https://drive.google.com/file/d/1NPT_HBA2MAm-Hy0y1DuywBtFOtGbAi4p/view?usp=sharing",
   },
   {
-    id: 3,
+    id: 4,
     heading: "Zentry Clone",
     title: "Gaming Website Clone (Zentry)",
     des: "A visually rich, animated gaming website clone inspired by Zentry.com. Built using React and GSAP for smooth animations and transitions.",
@@ -122,16 +133,16 @@ export const projects = [
     githubLink: "https://github.com/NickRaise/gaming_website",
     demoLink: "https://gaming-website-tawny.vercel.app/",
   },
-  {
-    id: 4,
-    heading: "Pay-OP",
-    title: "Online Digital Wallet Application",
-    des: "Pay-OP is a secure digital wallet application that allows you to transfer money from your bank account and pay any mobile number using the wallet. Built with Next.js, Tailwind CSS, and PostgreSQL.",
-    img: "/p4.svg",
-    iconLists: ["/ts.svg", "/nextjs.svg", "/tail.svg", "/postgresql.svg"],
-    githubLink: "https://github.com/NickRaise/PayOP",
-    demoLink: "https://github.com/NickRaise/PayOP",
-  },
+  // {
+  //   id: 4,
+  //   heading: "Pay-OP",
+  //   title: "Online Digital Wallet Application",
+  //   des: "Pay-OP is a secure digital wallet application that allows you to transfer money from your bank account and pay any mobile number using the wallet. Built with Next.js, Tailwind CSS, and PostgreSQL.",
+  //   img: "/p4.svg",
+  //   iconLists: ["/ts.svg", "/nextjs.svg", "/tail.svg", "/postgresql.svg"],
+  //   githubLink: "https://github.com/NickRaise/PayOP",
+  //   demoLink: "https://github.com/NickRaise/PayOP",
+  // },
 ];
 
 export const workExperience = [
