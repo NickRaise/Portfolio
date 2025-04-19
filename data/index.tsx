@@ -62,7 +62,7 @@ export const gridItems: gridItemType[] = [
   {
     id: 5,
     title:
-      "Currently building InterviewGuru: An AI based mock-interview platform.",
+      "Currently building SyncSpace: A game-like metaverse app for team collaboration.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
